@@ -7,10 +7,21 @@
     <title>Document</title>
 </head>
 <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     .main {
         /* display: flex; */
         border: 10px black solid;
-        height: 550px;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        position: relative;
+
+
 
     }
 
@@ -28,7 +39,7 @@
 
     .brown {
         background-color: brown;
-        height: 80px;
+        height: 80px];
         width: 25%;
     }
 
@@ -51,10 +62,44 @@
     }
 
     .purple {
+        height: 400px;
+        width: 12.5%;
         background-color: purple;
-        width: 15%;
-        float: left;
-        margin-top: 170px;
+        position: relative;
+
+    }
+
+    .box {
+
+
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        background-color: gold;
+    }
+
+    .grey {
+        background-color: grey;
+        height: 500px;
+        width: 12.5%;
+        position: relative;
+        float: right;
+
+    }
+
+    .green {
+        background-color: green;
+        height: 100px;
+
+        /* margin: 100px; */
+        /* position: absolute; */
+    }
+
+    .row {
+        position: relative;
     }
 </style>
 
@@ -66,12 +111,14 @@
             <div class="brown"></div>
             <div class="pink"></div>
             <div class="navy"></div>
+
         </div>
-        <div class="purple"> </div>
         <div class="box"></div>
         <div class="grey"></div>
-        <div class="green"></div>
-    </div>
+        <div class="row3">
+            <div class="purple"> </div>
+            <div class="green"></div>
+        </div>
     </div>
 </body>
 
