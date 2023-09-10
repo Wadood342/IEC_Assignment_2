@@ -22,7 +22,7 @@ border: 2px solid white;
 }
 
 .row2 {
-    /* display: inline; */
+
     display: flex;
 }
 
