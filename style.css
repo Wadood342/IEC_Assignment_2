@@ -3,16 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .main-section{
 border: 2px solid white;
 }
+
 .main {
     border: 10px black solid;
     height: 100%;
     width: 100%;
     background-color: black;
     position: relative;
-
 }
 
 .row1 {
@@ -21,7 +22,7 @@ border: 2px solid white;
 }
 
 .row2 {
-    display: inline;
+    /* display: inline; */
     display: flex;
 }
 
@@ -41,7 +42,6 @@ border: 2px solid white;
     background-color:#ff7498;
     height: 80px;
     width: 25%;
-
 }
 
 .row2Bar4 {
@@ -50,14 +50,11 @@ border: 2px solid white;
     width: 25%;
 }
 
-
-
 .row3Bar1 {
     height: 400px;
     width: 12.5%;
     background-color: #cd94e2;
     position: relative;
-
 }
 
 .midbox {
@@ -77,7 +74,6 @@ border: 2px solid white;
     width: 12.5%;
     position: relative;
     float: right;
-
 }
 
 .row4 {
